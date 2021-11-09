@@ -1,0 +1,278 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    font-family: Roboto;
+    color: #626262;
+}
+/* Top meny start */
+.container {
+    width: 100%;
+    margin: auto;
+    border: 2px solid #d2d2d2;
+    padding: .3rem;
+}
+.top-meny {
+    padding: 0 9rem;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.top-meny i {
+    color:#2baaec;
+}
+.iconer i {
+    color: #2baaec;
+    padding: .8rem;
+}
+.iconer i:hover{
+    color: #25e6c8;
+}
+/* Top meny slut */
+
+/* Huvud-meny start*/
+.huvud-meny {
+    font-family: roboto slap;
+    padding: 2rem 10rem;
+    font-size: 1.3rem;
+    display: flex;
+    /* flex-direction: column; ..för att komma ihåg kommandot*/ 
+    justify-content: space-between;
+    align-items: center;
+}
+.link {
+    padding: 1rem;
+    text-decoration: none;
+    color: black;
+}
+/* Huvud meny slut */
+
+/* Showcase start */
+#showcase {
+    background-color: #dedede;
+    height: 701px;
+}
+#showcase .container {
+    border: none;
+    display: flex;
+    align-items: center;
+}
+#showcase .container img {
+    margin: 1rem 6rem;
+    height: 600px 260px;
+  }
+.text {
+    color: #363636;
+  }
+.text h1 {
+    font-family: Roboto slab;
+    font-size: 3.2rem;
+    letter-spacing: .1em;
+    font-weight: normal;
+  }
+.text p {
+    color: #626262;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+  .btn {
+    background-color: transparent;
+    cursor: pointer;
+  }
+  .btn-primary {
+    margin-top: 2rem;
+    padding: 1rem;
+    width: 200px;
+    border: none;
+    border-radius: .5rem;
+    background-color: #25e6c8;
+    color: #fff;
+    font-weight: bold;
+  }
+  /* Showcase slut */
+
+
+  /* Om oss / About us start*/
+  #showcase-2 {
+    height: 852px;
+  }
+  #showcase-2 .container img {
+    border: 1px solid black;
+    margin: 1rem 6rem;
+    height: 600px 260px;
+  }
+  .content-2 {
+    border: 1px solid black;
+    /* width: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; */
+  }
+  #content {
+    padding: 4rem;
+  }
+  .text h2 {
+    padding: .6rem;
+    font-family: Roboto slab;
+    font-weight: normal;
+    font-size: 2.5rem;
+  }
+  .text span {
+    color: #2baaec;
+  }
+  #showcase-2 .container {
+    border: none;
+    padding: 7rem 8rem;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .statistik h2 {
+    border: 1px solid black;
+    /* padding-top: 2rem; */
+    color: #2baaec;
+  }
+  .statistik p {
+    border: 1px solid black;
+    /* padding-top: 3rem; */
+    font-family: Roboto slab;
+    color: #363636;
+    font-size: 1rem;
+    font-weight:500;
+    display: flex;
+    justify-content: space-between;
+  }
+  .statistik {
+    border: 1px solid black;
+    padding-bottom: 4rem;
+    display: flex;
+    align-items: center;
+}
+  /* Om oss/ About us slut */
+
+  /* Services start */
+  .container-3 {
+    background-color: #f7f7f7;
+    padding-top: 5rem;
+  }
+  #main-nav {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+  }
+  #main-nav h1 {
+    text-align: center;
+    color: #363636;
+    font-family: Roboto slab;
+    font-weight: normal;
+    padding-bottom: 1rem;
+  }
+  
+  /* Start kort */
+  .container-4 {
+    background-color: #f7f7f7;
+    padding-top: 2rem;
+    /* padding-bottom: 6rem; */
+    display: flex;
+    justify-content: center;
+  }
+  #nummer2 {
+    padding-bottom: 6rem;
+  }
+  .container-4 h3 {
+    font-family: Roboto slab;
+    font-weight: normal;
+    font-size: 1.3rem;
+    padding-bottom: 1rem;
+  }
+  .container-4 p {
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 1rem;
+  }
+  .text-2 {
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 80px;
+  }
+  .card {
+    /* border: 1px solid black; */
+    width: 400px;
+    height: 370px;
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    flex-direction:column-reverse;
+    align-items: center;
+    margin-right: 2rem;
+  }
+  .circle {
+    /* border: 1px solid black; */
+    height: 100px;
+    width: 100px;
+    background-color: #25e6c8;
+    border-radius: 50%;
+    position: relative;
+    margin-top: 70px;
+    cursor: pointer;
+  }
+  .circle:hover{
+    background-color: #2BAAEC;
+  }
+  .image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  /* Avslut kort */
+
+  /* Start appointment */
+
+  .appointment-nav {
+    background-color: #2BAAEC;
+  }
+  .overlay {
+    background-color: rgba(255, 255, 255, 0.199);
+  }
+  .appointment-nav h4 {
+    color: #fff;
+  }
+  .container-5 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+  } 
+  .container-5 h4 {
+    font-family: Roboto slab;
+    font-size: 1.4rem;
+  }
+  .btn-primary-2 {
+    background-color: #fff;
+    padding: 1rem;
+    width: 240px;
+    border: none;
+    border-radius: .5rem;
+    color: #2baaec;
+    font-weight: bold;
+  }
+  .footer {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    display:flex;
+    justify-content: center;
+    background-color: #2BAAEC;
+    color: rgba(255, 255, 255, 0.61);
+    font-family: Roboto;
+    font-size: 1rem;
+  }
