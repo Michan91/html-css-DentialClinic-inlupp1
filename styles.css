@@ -642,7 +642,7 @@ html, body {
   }
   .card {
     background-color: #fff;
-    width: 230px;
+    width: 250px;
     height: 420px;
     }
     .circle {
@@ -650,7 +650,7 @@ html, body {
       width: 100px;
     }
     .image {
-     width: 50px;
+     width: 40px;
     }
 }
 
