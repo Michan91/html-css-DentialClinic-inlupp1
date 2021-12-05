@@ -49,9 +49,11 @@ html, body {
   cursor: pointer;
 }
 .link {
+    font-family: Roboto slab;
+    font-weight:lighter;
     padding: 1rem;
     text-decoration: none;
-    color: black;
+    color: #363636;
 }
 /* Huvud meny slut */
 
@@ -99,7 +101,7 @@ html, body {
     border-radius: .6rem;
     background-color: #25e6c8;
     color: #fff;
-    font-weight: bold;
+    font-weight: bolder;
   }
   /* Showcase slut */
 
@@ -109,7 +111,6 @@ html, body {
     width: 100%;
     height: 848px;
   }
-  
   .bild-2 {
     margin: 1rem 10rem;
     height: 800px;
@@ -156,7 +157,7 @@ html, body {
   .ruta {
     padding-top: 3rem;
     display: flex;
-    justify-content: space-between; /*Kanske ta bort? */
+    justify-content: space-between;
     align-items: center;
   }
   .statistik {
@@ -171,7 +172,13 @@ html, body {
     width: 100%;
     margin: auto;
     background-color: #f7f7f7;
-    padding-top: 5rem;
+    padding-top: 6rem;
+    padding-bottom: 2rem;
+  }
+  .container-3 h1 {
+    font-family: Roboto slab;
+    font-weight: normal;
+    color: #363636;
   }
   #main-nav {
     color: #fff;
@@ -228,9 +235,7 @@ html, body {
     margin-bottom: 6rem;
   }
   .card {
-    /* border: 1px solid black; */
     width: 450px;
-    /* height: 440px; */
     border-radius: 8px;
     background-color: rgb(255, 255, 255);
     display: flex;
@@ -240,7 +245,6 @@ html, body {
     margin-right: 2rem;
   }
   .circle {
-    /* border: 1px solid black; */
     height: 130px;
     width: 130px;
     background-color: #25e6c8;
@@ -282,6 +286,7 @@ html, body {
   .container-5 h4 {
     font-family: Roboto slab;
     font-size: 1.6rem;
+    font-weight: normal;
   }
   .btn-primary-2 {
     background-color: #fff;
@@ -290,8 +295,11 @@ html, body {
     border: none;
     border-radius: .5rem;
     color: #2baaec;
-    font-weight: bold;
+    font-weight: bolder;
   }
+  /* Slut appointment */
+
+  /* Start footer */
   .footer {
     padding-top: 2rem;
     padding-bottom: 2rem;
@@ -302,6 +310,7 @@ html, body {
     font-family: Roboto;
     font-size: 1rem;
   }
+  /* Slut footer */
 
 @media (max-width: 1660px) {
   .bild-1 {
@@ -310,8 +319,7 @@ html, body {
   }
   .bild-2 {
     position: absolute;
-    height: 500px;
-    
+    height: 500px; 
   }
   #showcase {
     background-color: #dedede;
@@ -360,7 +368,7 @@ html, body {
   #showcase-2 {
     width: 100%;
     height: 748px;
-}
+  }
 }
 @media (max-width: 1290px) { 
   #showcase {
@@ -379,68 +387,68 @@ html, body {
   margin-top: -8rem;
   width: 100%;
 } 
-  .btn-primary {
-    height: 60px;
-    width: 280px;
-    font-size: 1.4rem;
-    font-weight: normal;
-   }
-  .huvud-meny {
-    padding: 2rem 4rem;
+.btn-primary {
+  height: 60px;
+  width: 280px;
+  font-size: 1.4rem;
+  font-weight: normal;
+  }
+.huvud-meny {
+  padding: 2rem 4rem;
  }
- .top-meny {
+.top-meny {
   margin: 0 -10rem;
  }
-  .bild-1 {
-    display: none;
+.bild-1 {
+  display: none;
   }
-  .bild-2 {
-    display: none;
+.bild-2 {
+  display: none;
   }
-  .statistik p {
-   text-align: center;
+.statistik p {
+  text-align: center;
   }
-  .card {
-    width: 280px;
-    height: 460px;
+.card {
+  width: 280px;
+  height: 460px;
   }
 }
 @media (max-width: 1040px){
-  .ruta {
-    display: none;
-  }
-  #showcase-2 {
-    height: 488px;
+.ruta {
+  display: none;
+}
+#showcase-2 {
+  height: 488px;
 }
 .card {
   width: 240px;
-  }
-  .circle {
-    height: 100px;
-    width: 100px;
+}
+.circle {
+  height: 100px;
+  width: 100px;
   }
 }
 
 @media (max-width: 991.98px) {
-  #showcase {
-    width: 100%;
-    height: 340px;
+#showcase {
+  width: 100%;
+  height: 340px;
 }
-  #showcase-2 {
-    width: 100%;
-    height: 438px;
+#showcase-2 {
+  width: 100%;
+  height: 438px;
 }
-  .huvud-meny i {
-    display: inline-block;
-    margin-right: .7rem;
-  }
-  .bild {
-    display: none;
-  }
-  .bild-2 {
-    display: none;
-  }
-  .huvud-meny .link {
+.huvud-meny i {
+  display: inline-block;
+  margin-right: .7rem;
+}
+.bild {
+  display: none;
+}
+.bild-2 {
+  display: none;
+}
+.huvud-meny .link {
   display: none;
 }
 .container-5 {
@@ -455,8 +463,8 @@ html, body {
   font-size: 1.4rem;
   font-weight: normal;
   align-items: center;
- }
- .text h1 {
+}
+.text h1 {
   font-size: 2rem;
 }
 .text h2 {
@@ -472,30 +480,30 @@ html, body {
 }
 }
 @media (max-width: 897.98px) {
-  .container-4 {
-    flex-direction: column;
-    align-items: center;
+.container-4 {
+  flex-direction: column;
+  align-items: center;
+}
+.content {
+  width: 140%;
+  margin-top: 3.5rem;
+} 
+.content-2 {
+  margin-top: -8rem;
+  width: 100%;
+} 
+.card {
+  width: 440px;
+  height: 520px;
+  margin-bottom: 2rem;
+}
+.circle {
+  height: 200px;
+  width: 200px;
+}
+.image {
+  width: 100px;
   }
-  .content {
-    width: 140%;
-    margin-top: 3.5rem;
-  } 
-  .content-2 {
-    margin-top: -8rem;
-    width: 100%;
-  } 
-  .card {
-    width: 440px;
-    height: 520px;
-    margin-bottom: 2rem;
-    }
-    .circle {
-      height: 200px;
-      width: 200px;
-    }
-    .image {
-     width: 100px;
-    }
 }
 @media (max-width: 833.98px){
   .text p {
@@ -535,8 +543,8 @@ html, body {
   #showcase {
     height: 340px;
 }
-#showcase-2 {
-  height: 340px;
+  #showcase-2 {
+    height: 340px;
 }
   .text h1 {
     text-align: center;
@@ -550,16 +558,15 @@ html, body {
   .service hr {
     display: none;
   }
-    .service h1 {
+  .service h1 {
     margin-top: -3.5rem;
     font-size: 1.5rem;
     color: #fff;
   }
   .card {
     background-color:#f7f7f7;
-      width: 440px;
-      height: 520px;
-      margin-bottom: -4rem;
+    width: 440px;
+    height: 520px;
   }
   .top-meny p {
     display: none;
@@ -570,7 +577,7 @@ html, body {
   #showcase {
     height: 310px;
 }
-#showcase-2 {
+  #showcase-2 {
   height: 240px;
 }
   .text h1 {
@@ -591,35 +598,35 @@ html, body {
     width: 180%;
     font-size: 2rem;
   }
-  @media (max-width: 560.98px){
-    #showcase {
-      height: 230px;
+@media (max-width: 560.98px){
+  #showcase {
+    height: 230px;
   }
   #showcase-2 {
     height: 180px;
   }
-    .appointment-nav h4 {
-      color: #fff;
+  .appointment-nav h4 {
+    color: #fff;
     }
-    .container-5 {
-      width: 100%;
-      margin: auto;
-      padding: 5rem 0 5rem 0;
-      display: flex;
-      justify-content:space-around;
-      align-items: center;
+  .container-5 {
+    width: 100%;
+    margin: auto;
+    padding: 5rem 0 5rem 0;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
     } 
-    .container-5 h4 {
-      font-family: Roboto slab;
-      font-size: 1.2rem;
-      font-weight: normal;
+  .container-5 h4 {
+    font-family: Roboto slab;
+    font-size: 1.2rem;
+    font-weight: normal;
     }
-    .btn-primary-2 {
-      height: 60px;
-      width: 280px;
-      font-size: 1.4rem;
-      font-weight: normal;
-      align-items: center;
+  .btn-primary-2 {
+    height: 60px;
+    width: 280px;
+    font-size: 1.4rem;
+    font-weight: normal;
+    align-items: center;
      }
    .text h1 {
     text-align: center;
@@ -633,41 +640,10 @@ html, body {
     width: 180%;
     font-size: 1.4rem;
   }
-  
-}}  @media (max-width: 554.98px) {
-  .btn-primary {
-    height: 40px;
-    width: 160px;
-    font-size: 1rem;
-    font-weight: normal;
-   }
-   .btn-primary-2 {
-    height: 40px;
-    width: 200px;
-    font-size: 1rem;
-    font-weight: normal;
-    align-items: center;
-   }
-  .content {
-    width: 200%;
-    margin-top: 3.5rem;
-  } 
-  .content-2 {
-    margin-top: -8rem;
-    width: 120%;
-  }
-  .text-2 {
-    margin-top: 0;
-  }
-  .container-4 {
-    background-color:#fff;
-    padding-top: 0;
-  }
   .card {
     background-color: #fff;
     width: 230px;
     height: 420px;
-    margin: bottom 0;;
     }
     .circle {
       height: 100px;
@@ -677,8 +653,25 @@ html, body {
      width: 50px;
     }
 }
-@media (max-width: 554.98px){
+
+@media (max-width: 554px){
 .huvud-meny img {
-  width: 180px;
+  width: 180px;  
 }
+.huvud-meny {
+  justify-content: space-evenly;
 }
+#showcase {
+  height: 230px;
+}
+#showcase-2 {
+height: 180px;
+}
+.text h1 {
+  margin-left: -10rem;
+  width: 300px;
+}
+.text h2 {
+  width: 300px;
+}
+}}
