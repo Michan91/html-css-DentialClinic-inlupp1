@@ -642,7 +642,7 @@ html, body {
   }
   .card {
     background-color: #fff;
-    width: 250px;
+    width: 260px;
     height: 420px;
     }
     .circle {
@@ -655,6 +655,15 @@ html, body {
 }
 
 @media (max-width: 554px){
+  .container {
+    width: 100%;
+  }
+  .container-3 {
+    width: 100%;
+  }
+  .container-4 {
+    width: 100%;
+  }
 .huvud-meny img {
   width: 180px;  
 }
@@ -663,9 +672,25 @@ html, body {
 }
 #showcase {
   height: 230px;
+  width: 105%;
+  overflow: hidden;
 }
 #showcase-2 {
 height: 180px;
+width: 105%;
+overflow: hidden;
+}
+.container-3 {
+  width: 105%;
+}
+.container-4 {
+  width: 105%;
+}
+.appointment-nav {
+  width: 105%;
+}
+.footer {
+  width: 105%;
 }
 .text h1 {
   margin-left: -10rem;
